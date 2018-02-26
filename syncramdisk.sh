@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 # 设置内存盘的名称
 DISK_NAME=RamDisk
 MOUNT_PATH=/Volumes/$DISK_NAME
 
 # 设置备份文件的保存路径
-WORK_PATH=/Volumes/iMac/Ramdisk
+WORK_PATH=/etc/ramdisk
 BAK_PATH=$WORK_PATH/$DISK_NAME.tar.gz
 LISTFILE=$WORK_PATH/list.txt
 
